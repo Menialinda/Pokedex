@@ -1,10 +1,20 @@
-import { Directive } from '@angular/core';
+import { Directive, ElementRef, Renderer2, HostListener } from '@angular/core';
 
 @Directive({
-  selector: '[appRollOnScroll]'
+  selector: '[RollOnScroll]'
 })
 export class RollOnScrollDirective {
 
-  constructor() { }
+  @HostListener('window:scroll', []) onWindowScroll(){
+    const rotation = `translateY(-50%) rotateZ(${window.scrollY / 15}deg)`;
+
+    this.render.setStyle(
+      this.elementref.nativeElement,
+      'transform',
+      rotation
+    )
+  }
+
+  constructor(private elementref: ElementRef, private render: Renderer2) { }
 
 }
