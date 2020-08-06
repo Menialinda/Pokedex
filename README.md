@@ -6,9 +6,9 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.7.
 
 # Como rodar a aplicação :star:
-
+```
 No terminal, clone o projeto:
-
+```
 git@github.com:AnaLuizaBarros/Pokedex.git
 
 Entre na pasta do projeto:
