@@ -3,24 +3,30 @@
 
 # Pokedex
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.7.
+ Projeto feito com [Angular CLI](https://github.com/angular/angular-cli) versão 9.0.7.
+
+# Descrição do projeto 
+ Projeto realizado para pratica do que foi ensinado no curso da TreinaWeb na formação desenvolvedor Angular.
+ Ele aborda o consumo de API's e pesquisa, simulando uma pokedex.
 
 # Como rodar a aplicação :star:
 
-## No terminal, clone o projeto:
+### No terminal, clone o projeto:
 ```
-git@github.com:AnaLuizaBarros/Pokedex.git
+ git@github.com:AnaLuizaBarros/Pokedex.git
 ```
-## Entre na pasta do projeto:
+### Entre na pasta do projeto:
 ```
-cd Pokedex
+ cd Pokedex
 ```
-## Instale as dependencias:
+### Instale as dependencias:
 ```
-npm install
+ npm install
 ```
-## Execute a aplicação:
+### Execute a aplicação:
 ```
-ng serve
+ ng serve
 ```
-Pronto, agora é possível acessar a aplicação a partir da rota http://localhost:4200/
+ Pronto, agora é possível acessar a aplicação a partir da rota http://localhost:4200/
+
+Captured by <strong>Ana Luiza Barros</strong> :stuck_out_tongue_winking_eye:
